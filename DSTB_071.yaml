@@ -1,4 +1,95 @@
 proxies:
+- name: SvrNusa51_Ilped_IP1
+  type: trojan
+  server: 104.18.25.139
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Ilped_IP2
+  type: trojan
+  server: 104.18.24.139
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Ilped_IP3
+  type: trojan
+  server: 104.26.7.171
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Ilped_IP4
+  type: trojan
+  server: 104.26.6.171
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Ilped_IP5
+  type: trojan
+  server: 104.16.182.114
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Ilped_IP6
+  type: trojan
+  server: 104.16.85.20
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Ilped_IP7
+  type: trojan
+  server: 104.16.51.111
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
 - name: SvrDSTB_DO_Ilped_IP1
   type: trojan
   server: 104.18.25.139
@@ -181,94 +272,3 @@ proxies:
     path: /trojan
     headers:
       Host: id3.myserver-prem.xyz
-- name: SvrNusa51_Ilped_IP1
-  type: trojan
-  server: 104.18.25.139
-  port: 443
-  password: 63780723-758c-4456-bc8e-13795525fb8a
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Ilped_IP2
-  type: trojan
-  server: 104.18.24.139
-  port: 443
-  password: 63780723-758c-4456-bc8e-13795525fb8a
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Ilped_IP3
-  type: trojan
-  server: 104.26.7.171
-  port: 443
-  password: 63780723-758c-4456-bc8e-13795525fb8a
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Ilped_IP4
-  type: trojan
-  server: 104.26.6.171
-  port: 443
-  password: 63780723-758c-4456-bc8e-13795525fb8a
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Ilped_IP5
-  type: trojan
-  server: 104.16.182.114
-  port: 443
-  password: 63780723-758c-4456-bc8e-13795525fb8a
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Ilped_IP6
-  type: trojan
-  server: 104.16.85.20
-  port: 443
-  password: 63780723-758c-4456-bc8e-13795525fb8a
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Ilped_IP7
-  type: trojan
-  server: 104.16.51.111
-  port: 443
-  password: 63780723-758c-4456-bc8e-13795525fb8a
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
